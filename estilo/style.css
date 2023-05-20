@@ -24,13 +24,17 @@ html, body {
 
 header {
     background-color: black;
-    background-image: linear-gradient(to right, rgb(155, 13, 13), rgb(31, 31, 196), rgb(17, 156, 17));
     color: white;
     text-align: center;
     
 }
 
 header > h1 {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.959), rgb(66, 126, 66), rgb(48, 65, 216));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font2);
@@ -87,8 +91,8 @@ section.imagem > p {
 }
 
 #img001 {
-   
-    background-position: center;
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
     
 }
 
